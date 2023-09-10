@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-/*Print what programming is like*/
+/**
+ * This is the main function.
+ * It prints a message using the puts function.
+ *
+ * return 0 upon successful execution.
+ */
 
 int main(void)
 {
