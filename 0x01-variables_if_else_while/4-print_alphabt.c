@@ -16,12 +16,10 @@ int main(void)
 	{
 	/*exclude 'e' and 'q'*/
 		if (letter != 'e' && letter != 'q')
-		
 		{
 	/*prints the letters*/
 			putchar(letter);
-		}
-	
+		}	
 	}
 
 	/*prints nw line aftr each letter*/
