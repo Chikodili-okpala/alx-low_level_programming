@@ -27,15 +27,15 @@ int main(void)
 	if (lastDigit > 5)
 	{
 	/*if n is greater than five print*/
-		printf("and is greater than 5\n", n, lastDigit);
+		printf("and is greater than 5\n");
 	} else if (lastDigit == 0)
 	{
 	/*if n is equal to zero print*/
-		printf("and is 0\n", n, lastDigit);
+		printf("and is 0\n");
 	} else if (lastDigit < 6)
 	{
 	/*if n is less than six and not zero print*/
-		printf("and is less than 6 and not 0\n", n, lastDigit);
+		printf("and is less than 6 and not 0\n");
 	}
 	return (0);
 }
