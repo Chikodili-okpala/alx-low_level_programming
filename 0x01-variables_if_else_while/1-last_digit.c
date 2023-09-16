@@ -17,23 +17,25 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	/*Last digit of n calculation*/
+	/*last digit of n calculation*/
 	lastDigit = n % 10;
+
+	/*prints the value of last digit*/
+		printf("Last digit of %d is %d ", n, lastDigit);
 
 	/*check the boolean condition*/
 	if (lastDigit > 5)
 	{
 	/*if n is greater than five print*/
-		printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
+		printf("and is greater than 5\n", n, lastDigit);
 	} else if (lastDigit == 0)
 	{
 	/*if n is equal to zero print*/
-		printf("Last digit of %d is %d and is 0\n", n, lastDigit);
+		printf("and is 0\n", n, lastDigit);
 	} else if (lastDigit < 6)
 	{
 	/*if n is less than six and not zero print*/
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", \
-		n, lastDigit);
+		printf("and is less than 6 and not 0\n", n, lastDigit);
 	}
 	return (0);
 }
