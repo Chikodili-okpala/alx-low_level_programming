@@ -18,7 +18,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/*Last digit of n calculation*/
-	int lastDigit = n % 10;
+	lastDigit = n % 10;
 
 	/*check the boolean condition*/
 	if (lastDigit > 5)
