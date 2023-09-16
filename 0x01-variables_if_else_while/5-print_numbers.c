@@ -17,7 +17,6 @@ int main(void)
 	/*prints the digits as character*/
 		putchar(n + '0');
 	}
-	
 	/*prints new line after the single digits*/
 	putchar('\n');
 
