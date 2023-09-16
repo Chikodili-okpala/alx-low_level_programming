@@ -8,7 +8,7 @@
  * Return: Always 0 (indicating successful execution)
  */
 int main(void)
-{
+	{
 	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
@@ -18,8 +18,7 @@ int main(void)
 
 	}
 	/*adds a new line to the end of each letter*/
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
-
-}
+	}
