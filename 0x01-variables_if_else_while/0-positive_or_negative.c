@@ -25,7 +25,7 @@ int main(void)
 	{
 	/* if n is equal to zero print*/
 		printf("%d is zero\n", n);
-	} else if (n<0)
+	} else if (n < 0)
 	{
 	/* if n is less than zero print*/
 		printf("%d is negative\n", n);
