@@ -19,7 +19,7 @@ int main(void)
 	{
 	/*prints the letters*/
 			putchar(letter);
-		}	
+	}
 	}
 
 	/*prints nw line aftr each letter*/
