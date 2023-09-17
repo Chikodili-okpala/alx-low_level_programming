@@ -16,8 +16,8 @@ int main(void)
 	for (n = 0; n <= 9; n++)
 	{
 	/*prints the combination*/
-		putchar(m + '0');
-		putchar(n + '0');
+		putchar(m);
+		putchar(n);
 
 	if (m != 9 || n != 9)
 	{
