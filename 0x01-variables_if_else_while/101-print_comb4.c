@@ -22,10 +22,10 @@ int main(void)
 	/*prints unique combo of 3 digits*/
 		putchar(m + '0');
 		putchar(n + '0');
-		putchar(0 + '0');
+		putchar(o + '0');
 	if (m < 7)
 	{
-	/*prints , then */
+	/*prints , then  if the first digit is less than 7*/
 		putchar(',');
 		putchar(' ');
 	}
