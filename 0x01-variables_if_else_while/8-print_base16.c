@@ -13,7 +13,7 @@ int main(void)
 	char letter;
 	int n;
 
-	for (n = 0; n <= 10; n++)
+	for (n = 0; n < 10; n++)
 	{
 		letter = '0' + n;
 	/*Converts integer n to its character representation*/
