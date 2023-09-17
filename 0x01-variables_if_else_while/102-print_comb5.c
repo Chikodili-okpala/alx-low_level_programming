@@ -12,9 +12,9 @@ int main(void)
 	int m;
 	int n;
 
-	for (m = 0; m < 99; m++)
+	for (m = 0; m < 100; m++)
 	{
-	for (n = m + 1; n < 99; n++)
+	for (n = m + 1; n < 100; n++)
 	{
 	/*prints the 1st digit which is less than 10*/
 		putchar((m / 10) + '0');
