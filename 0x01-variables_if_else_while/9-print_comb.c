@@ -16,17 +16,16 @@ int main(void)
 	for (n = 0; n <= 9; n++)
 	{
 	/*prints the combination*/
-		putchar(m);
-		putchar(n);
+		putchar(m + '0');
+		putchar(n + '0');
 
 	if (m != 9 || n != 9)
 	{
 		putchar(',');
 		putchar(' ');
-	
 	}
 	}
 	}
 
-	return 0;
+	return (0);
 }
