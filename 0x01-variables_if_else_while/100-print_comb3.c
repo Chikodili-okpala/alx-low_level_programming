@@ -8,10 +8,13 @@
  * Return: Always 0 (indicating successful execution)
  */
 int main(void)
+{
+	int m;
+	int n;
+
+	for (m = 0; m < 9; m++)
 	{
-	for (int m = 0; m < 9; m++)
-	{
-        for (int n = m + 1; n < 10; n++)
+	for (n = m + 1; n < 10; n++)
 	{
 	/*prints the unique combo of the 2 digits*/
 		putchar(m + '0');
@@ -23,6 +26,7 @@ int main(void)
 	}
 	}
 	}
+
 	putchar('\n');
 
 	return 0;
