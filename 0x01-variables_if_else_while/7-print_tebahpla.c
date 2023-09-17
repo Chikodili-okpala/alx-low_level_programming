@@ -10,6 +10,7 @@
 int main(void)
 {
 	char letter;
+
 	for (letter = 'z'; letter >= 'a'; letter--)
 	{
 	/*prints the alphabets in reverse or descending order*/
