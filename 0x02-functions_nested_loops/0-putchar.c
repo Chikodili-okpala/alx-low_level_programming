@@ -1,5 +1,8 @@
 #include "main.h"
 
+/*Declares the puts function*/
+int puts(const char *s);
+
 /**
  * main - Entry point of the program
  *
