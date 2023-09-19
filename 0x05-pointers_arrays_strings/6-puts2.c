@@ -10,13 +10,17 @@
 */
 void puts2(char *str)
 {
-	int i = 0;
+	int n = 0;
 
-	while (str[i] != '\0')
+	while (str[n] != '\0')
 	{
-		putchar(str[i]);
-	/*increments by 2 to skip every other character*/
-	i += 2;
+		putchar(str[n]);
+	/*increments by 1 to move to the next character*/
+	n++;
+
+	if (str[n] == '\0')
+	/*breaks if it reaches the end of the string*/		
+	break;
 	}
 
 	/*prints a newline character to complete the line*/
