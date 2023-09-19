@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-*void_puts - returns the length of a string
+*_puts - returns the length of a string
 *@str: a pointer to the string
 *
 * Description: This function takes a pointer to a string - character array,
