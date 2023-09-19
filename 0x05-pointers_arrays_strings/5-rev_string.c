@@ -33,22 +33,3 @@ void rev_string(char *s)
 	}
 }
 
-
-/**
-*main - check the code
-*
-*Return: Always 0 (indicating successful execution)
-*/
-int main(void)
-{
-char s[10] = "My School";
-
-	/*prints s*/
-	printf("%s\n", s);
-	/*calls rev_string to reverse the string in place*/
-	rev_string(s);
-	/*prints the reversed s*/
-	printf("%s\n", s);
-	return (0);
-}
-
