@@ -16,7 +16,7 @@ void puts2(char *str)
 	{
 		putchar(str[i]);
 	/*increments by 2 to skip every other character*/
- 		i += 2;
+	i += 2;
 	}
 
 	/*prints a newline character to complete the line*/
