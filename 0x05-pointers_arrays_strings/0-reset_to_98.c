@@ -4,7 +4,7 @@
 *void reset_to_98 - set the integer pointed to 98
 *@n: a pointer to the integer we want to set to 98
 */
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
@@ -16,11 +16,8 @@ void reset_to_98(int *n);
 */
 int main(void)
 {
-	int m;
-	int *n;
-
-	m = 70;
-	*n = &m;
+	int m = 70;
+	int *n = &m;
 
 		printf("Value of m before the call is %d\n", m);
 
