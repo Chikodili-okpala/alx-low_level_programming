@@ -2,12 +2,12 @@
 
 /*
 * _strcat - concatenates the content of one string to another
-* @dest: destination string to which @src will be appended.
-* @src: source string that will be appended to @dest.
+* @dest: destination string to which @src will be appended
+* @src: source string that will be appended to @dest
 *
-* Description: This function takes two pointers to strings and appends
+* Description: this function takes two pointers to strings and appends
 * the content of @src to the end of @dest and adds a null terminator
-* to the resulting concatenated string (@dest).
+* to the resulting concatenated string (@dest)
 *
 * Return - returns a pointer to dest on successful execution
 */
@@ -21,7 +21,7 @@ char *_strcat(char *dest, char *src)
 	{
 	destlen++;
 	}
-	/*Concatenates src to dest*/
+	/*concatenates src to dest*/
 	for (p = 0; src[p] != '\0'; p++)
 	{
 	dest[destlen + p] = src[p];
@@ -33,3 +33,4 @@ char *_strcat(char *dest, char *src)
 
 
 }
+
