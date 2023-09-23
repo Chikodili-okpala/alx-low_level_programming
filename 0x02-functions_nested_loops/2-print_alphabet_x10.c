@@ -7,15 +7,19 @@
  */
 void print_alphabet_x10(void)
 {
+	/*initializes p and q*/
 	int p;
 	int q;
 
-	for (q = 1; p <= 10; p++)
+	/*loop q through p*/
+	for (p = 1; p <= 10; p++)
 	{
 		for (q = 'a'; q <= 'z'; q++)
 		{
+		/*prints a to z 10x*/
 		_putchar(q);
 		}
+	/*adds a new line character*/
 	_putchar('\n');
 	}
 }
