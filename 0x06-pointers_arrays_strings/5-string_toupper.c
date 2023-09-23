@@ -10,7 +10,7 @@
 * Return - return a pointer to q on successful execution
 */
 char *string_toupper(char *q)
-	int o;
+	int o = 0;
 {
 	/*iterates through the string until the null terminator is met*/
 	while (q[o] != '\0')
