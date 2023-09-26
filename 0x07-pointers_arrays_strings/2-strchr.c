@@ -31,6 +31,14 @@ char *_strchr(char *s, char c)
 		return (&(s[p]));
 		}
 	}
+	/**
+	 * If character c is not found and c is '\0',
+	 * return a pointer to the null terminator
+	 */
+	if (c == '\0')
+	{
+		return (&(s[p]));
+	}
 
 	/*if c is not found, return NULL*/
 	return (NULL);
