@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 
 /**
  * _strchr - returns pointer to the 1st occurence of the character c
@@ -11,7 +10,7 @@
  */
 char *_strchr(char *s, char c)
 {
-	int p;
+	unsigned int p;
 
 	/*checks for NULL pointer*/
 	if (s == NULL)
@@ -25,15 +24,14 @@ char *_strchr(char *s, char c)
 		if (s[p] == c)
 		{
 		/**
-		 * returns a pointer to the first occurrence
+		 * returns a pointer to the first occurrence 
 		 * of the character c in the string s
 		 */
 		return (&(s[p]));
-		}
+		}		
 	}
-
-		/*if c is not found, return NULL*/
-		return (NULL);
+	/*if c is not found, return NULL*/
+	return (NULL);
 
 }
 
