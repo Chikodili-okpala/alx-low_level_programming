@@ -12,7 +12,7 @@ void _puts_recursion(char *s)
 	if (*s == '\0')
 	{
 		/*If yes, print a newline character*/
-		putchar('\n');
+		_putchar('\n');
 		return;
 	}
 
