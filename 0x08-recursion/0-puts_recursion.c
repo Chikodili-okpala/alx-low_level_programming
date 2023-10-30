@@ -18,6 +18,14 @@ void _puts_recursion(char *s)
 
 	/*Print the current character*/
 	putchar(*s);
-	/*Recursively call the function with the next character in the string*/
-	_puts_recursion(s + 1);
+	/*If the next character is not the null terminator*/
+	if (*(s + 1) != '\0')
+	{
+		/*Recursively call the function with the next character in the string*/
+		_puts_recursion(s + 1);
+	}
+	else
+	{
+		putchar('\n');
+	}
 }
