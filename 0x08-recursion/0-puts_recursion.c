@@ -17,7 +17,7 @@ void _puts_recursion(char *s)
 	}
 
 	/*Print the current character*/
-	putchar(*s);
+	_putchar(*s);
 	/*If the next character is not the null terminator*/
 	if (*(s + 1) != '\0')
 	{
@@ -26,6 +26,6 @@ void _puts_recursion(char *s)
 	}
 	else
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 }
