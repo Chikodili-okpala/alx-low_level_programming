@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * _puts_recursion - prints a string
- * s: string to be printed
  *
+ * @s: variable or memory location within _puts_recursion function
  * Return: 0 on successful execution
  */
 void _puts_recursion(char *s)
@@ -13,7 +13,7 @@ void _puts_recursion(char *s)
 	{
 		/*If yes, print a newline character*/
 		putchar('\n');
-		return (0);
+		return;
 	}
 
 	/*Print the current character*/
